@@ -17,7 +17,7 @@ let twoSum = function (nums, target) {
     for (let i = nums.length - 1; i > i; i--) {
       if (nums[counter] + nums[i] == target) {
         indices.push(i);
-        indices.push(nums.indexOf(nums[couter]));
+        indices.push(nums.indexOf(nums[counter]));
       } else counter++;
     }
   }
