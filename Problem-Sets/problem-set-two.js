@@ -12,5 +12,11 @@
 
 let twoSum = function (nums, target) {
   let indices = [];
-  for (let k = 0; k < nums.length; k++) {}
+  // for each element create a new iteration
+  for (let k = 0; k < nums.length; k++) {
+    // create counter to record index
+    let counter = 0;
+    // create a for loop that adds each element and determines if equals target
+    for (let i = nums.length - 1; i > i; i--) {}
+  }
 };
