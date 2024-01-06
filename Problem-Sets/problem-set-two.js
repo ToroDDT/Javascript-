@@ -12,6 +12,7 @@
 
 let twoSum = function (nums, target) {
   let indices = [];
+  let counter = 0;
   // for each element create a new iteration
   for (let k = 0; k < nums.length; k++) {
     // create counter to record index
@@ -22,7 +23,7 @@ let twoSum = function (nums, target) {
       if (nums[counter] + nums[i] == target) {
         indices.push(i);
         indices.push(nums.indexOf(nums[couter]));
-      }
+      } else counter++;
     }
   }
 };
